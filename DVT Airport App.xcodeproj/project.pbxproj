@@ -3,25 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D33BD26577FAB21BDC5348F /* Pods_DVT_Airport_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEE37AE3819E34E523AAFCB /* Pods_DVT_Airport_App.framework */; };
 		1E153B062327A8B40044E6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B052327A8B40044E6DD /* AppDelegate.swift */; };
-		1E153B082327A8B40044E6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B072327A8B40044E6DD /* ViewController.swift */; };
+		1E153B082327A8B40044E6DD /* DVT_FlightListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B072327A8B40044E6DD /* DVT_FlightListingViewController.swift */; };
 		1E153B0B2327A8B40044E6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E153B092327A8B40044E6DD /* Main.storyboard */; };
 		1E153B0D2327A8B50044E6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E153B0C2327A8B50044E6DD /* Assets.xcassets */; };
 		1E153B102327A8B50044E6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E153B0E2327A8B50044E6DD /* LaunchScreen.storyboard */; };
+		1E153B1D2327ACAC0044E6DD /* IBInspectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B1C2327ACAC0044E6DD /* IBInspectables.swift */; };
+		1E153B232327AD150044E6DD /* MHPHttpClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B212327AD150044E6DD /* MHPHttpClientManager.swift */; };
+		1E153B242327AD150044E6DD /* MHPAppConstats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B222327AD150044E6DD /* MHPAppConstats.swift */; };
+		1E153B272327AE200044E6DD /* SharedAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B262327AE200044E6DD /* SharedAlertController.swift */; };
+		1E153B292327AEA40044E6DD /* Emum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B282327AEA40044E6DD /* Emum.swift */; };
+		1E153B2B2327AF300044E6DD /* FlightListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B2A2327AF300044E6DD /* FlightListingViewModel.swift */; };
+		1E153B2D2327B0F20044E6DD /* MapDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B2C2327B0F20044E6DD /* MapDataModel.swift */; };
+		1E153B2F2327B2FB0044E6DD /* ViewController.Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B2E2327B2FB0044E6DD /* ViewController.Extensions.swift */; };
+		1E153B312327B3E50044E6DD /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B302327B3E50044E6DD /* CommonViewController.swift */; };
+		1E153B332327B4A00044E6DD /* DVT_FlightListingViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B322327B4A00044E6DD /* DVT_FlightListingViewController+TableView.swift */; };
+		1E153B352327B5840044E6DD /* DVT_FlightListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B342327B5840044E6DD /* DVT_FlightListingTableViewCell.swift */; };
+		1E153B382327CDBE0044E6DD /* DVT_MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B372327CDBE0044E6DD /* DVT_MapViewController.swift */; };
+		1E153B3D2327CE440044E6DD /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B3C2327CE430044E6DD /* MapViewModel.swift */; };
+		1E153B402327CE610044E6DD /* DVT_MapViewController+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B3E2327CE600044E6DD /* DVT_MapViewController+SearchBar.swift */; };
+		1E153B412327CE610044E6DD /* DVT_MapViewController+GoogleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E153B3F2327CE600044E6DD /* DVT_MapViewController+GoogleMap.swift */; };
+		1E82F127232BB3B80065C5F4 /* FlightListingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82F126232BB3B80065C5F4 /* FlightListingDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03EDAF341D912DF883400176 /* Pods-DVT Airport App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT Airport App.debug.xcconfig"; path = "Target Support Files/Pods-DVT Airport App/Pods-DVT Airport App.debug.xcconfig"; sourceTree = "<group>"; };
+		0A6BDFABEB983F1D5CFE4C39 /* Pods-DVT Airport App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVT Airport App.release.xcconfig"; path = "Target Support Files/Pods-DVT Airport App/Pods-DVT Airport App.release.xcconfig"; sourceTree = "<group>"; };
 		1E153B022327A8B40044E6DD /* DVT Airport App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DVT Airport App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E153B052327A8B40044E6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E153B072327A8B40044E6DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E153B072327A8B40044E6DD /* DVT_FlightListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVT_FlightListingViewController.swift; sourceTree = "<group>"; };
 		1E153B0A2327A8B40044E6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E153B0C2327A8B50044E6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E153B0F2327A8B50044E6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E153B112327A8B50044E6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E153B1C2327ACAC0044E6DD /* IBInspectables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBInspectables.swift; sourceTree = "<group>"; };
+		1E153B212327AD150044E6DD /* MHPHttpClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHPHttpClientManager.swift; sourceTree = "<group>"; };
+		1E153B222327AD150044E6DD /* MHPAppConstats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHPAppConstats.swift; sourceTree = "<group>"; };
+		1E153B262327AE200044E6DD /* SharedAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedAlertController.swift; sourceTree = "<group>"; };
+		1E153B282327AEA40044E6DD /* Emum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emum.swift; sourceTree = "<group>"; };
+		1E153B2A2327AF300044E6DD /* FlightListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListingViewModel.swift; sourceTree = "<group>"; };
+		1E153B2C2327B0F20044E6DD /* MapDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataModel.swift; sourceTree = "<group>"; };
+		1E153B2E2327B2FB0044E6DD /* ViewController.Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.Extensions.swift; sourceTree = "<group>"; };
+		1E153B302327B3E50044E6DD /* CommonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		1E153B322327B4A00044E6DD /* DVT_FlightListingViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DVT_FlightListingViewController+TableView.swift"; sourceTree = "<group>"; };
+		1E153B342327B5840044E6DD /* DVT_FlightListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVT_FlightListingTableViewCell.swift; sourceTree = "<group>"; };
+		1E153B372327CDBE0044E6DD /* DVT_MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVT_MapViewController.swift; sourceTree = "<group>"; };
+		1E153B3C2327CE430044E6DD /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		1E153B3E2327CE600044E6DD /* DVT_MapViewController+SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DVT_MapViewController+SearchBar.swift"; sourceTree = "<group>"; };
+		1E153B3F2327CE600044E6DD /* DVT_MapViewController+GoogleMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DVT_MapViewController+GoogleMap.swift"; sourceTree = "<group>"; };
+		1E82F126232BB3B80065C5F4 /* FlightListingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListingDataModel.swift; sourceTree = "<group>"; };
+		3BEE37AE3819E34E523AAFCB /* Pods_DVT_Airport_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DVT_Airport_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D33BD26577FAB21BDC5348F /* Pods_DVT_Airport_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,8 @@
 			children = (
 				1E153B042327A8B40044E6DD /* DVT Airport App */,
 				1E153B032327A8B40044E6DD /* Products */,
+				5B728D061E60D002F15E4971 /* Pods */,
+				A9873CB4777E5F51F5B06E57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,135 @@
 		1E153B042327A8B40044E6DD /* DVT Airport App */ = {
 			isa = PBXGroup;
 			children = (
+				1E153B252327AD200044E6DD /* APISupport */,
+				1E153B1E2327ACB90044E6DD /* SupportingClassesAndFiles */,
 				1E153B052327A8B40044E6DD /* AppDelegate.swift */,
-				1E153B072327A8B40044E6DD /* ViewController.swift */,
+				1E153B302327B3E50044E6DD /* CommonViewController.swift */,
+				1E153B172327AA3B0044E6DD /* AppScreens */,
 				1E153B092327A8B40044E6DD /* Main.storyboard */,
 				1E153B0C2327A8B50044E6DD /* Assets.xcassets */,
 				1E153B0E2327A8B50044E6DD /* LaunchScreen.storyboard */,
 				1E153B112327A8B50044E6DD /* Info.plist */,
 			);
 			path = "DVT Airport App";
+			sourceTree = "<group>";
+		};
+		1E153B172327AA3B0044E6DD /* AppScreens */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B362327CD910044E6DD /* DVT_MapViewController */,
+				1E153B182327AA590044E6DD /* DVT_FlightListingViewController */,
+			);
+			path = AppScreens;
+			sourceTree = "<group>";
+		};
+		1E153B182327AA590044E6DD /* DVT_FlightListingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B1B2327AA750044E6DD /* Controller */,
+				1E153B1A2327AA6C0044E6DD /* Model */,
+				1E153B192327AA630044E6DD /* View */,
+			);
+			path = DVT_FlightListingViewController;
+			sourceTree = "<group>";
+		};
+		1E153B192327AA630044E6DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B342327B5840044E6DD /* DVT_FlightListingTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E153B1A2327AA6C0044E6DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B2A2327AF300044E6DD /* FlightListingViewModel.swift */,
+				1E82F126232BB3B80065C5F4 /* FlightListingDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E153B1B2327AA750044E6DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B072327A8B40044E6DD /* DVT_FlightListingViewController.swift */,
+				1E153B322327B4A00044E6DD /* DVT_FlightListingViewController+TableView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E153B1E2327ACB90044E6DD /* SupportingClassesAndFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B1C2327ACAC0044E6DD /* IBInspectables.swift */,
+				1E153B262327AE200044E6DD /* SharedAlertController.swift */,
+				1E153B282327AEA40044E6DD /* Emum.swift */,
+				1E153B2E2327B2FB0044E6DD /* ViewController.Extensions.swift */,
+			);
+			path = SupportingClassesAndFiles;
+			sourceTree = "<group>";
+		};
+		1E153B252327AD200044E6DD /* APISupport */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B222327AD150044E6DD /* MHPAppConstats.swift */,
+				1E153B212327AD150044E6DD /* MHPHttpClientManager.swift */,
+			);
+			path = APISupport;
+			sourceTree = "<group>";
+		};
+		1E153B362327CD910044E6DD /* DVT_MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B3B2327CDF10044E6DD /* Model */,
+				1E153B3A2327CDE80044E6DD /* Controller */,
+				1E153B392327CDE10044E6DD /* View */,
+			);
+			path = DVT_MapViewController;
+			sourceTree = "<group>";
+		};
+		1E153B392327CDE10044E6DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E153B3A2327CDE80044E6DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B372327CDBE0044E6DD /* DVT_MapViewController.swift */,
+				1E153B3F2327CE600044E6DD /* DVT_MapViewController+GoogleMap.swift */,
+				1E153B3E2327CE600044E6DD /* DVT_MapViewController+SearchBar.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E153B3B2327CDF10044E6DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E153B3C2327CE430044E6DD /* MapViewModel.swift */,
+				1E153B2C2327B0F20044E6DD /* MapDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B728D061E60D002F15E4971 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03EDAF341D912DF883400176 /* Pods-DVT Airport App.debug.xcconfig */,
+				0A6BDFABEB983F1D5CFE4C39 /* Pods-DVT Airport App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9873CB4777E5F51F5B06E57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BEE37AE3819E34E523AAFCB /* Pods_DVT_Airport_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E153B142327A8B50044E6DD /* Build configuration list for PBXNativeTarget "DVT Airport App" */;
 			buildPhases = (
+				E42271CB85122798964F871B /* [CP] Check Pods Manifest.lock */,
 				1E153AFE2327A8B40044E6DD /* Sources */,
 				1E153AFF2327A8B40044E6DD /* Frameworks */,
 				1E153B002327A8B40044E6DD /* Resources */,
+				B096BAC129CDDBB66F15B0FE /* [CP] Embed Pods Frameworks */,
+				9074C763666C95C96D61C41C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +293,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9074C763666C95C96D61C41C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DVT Airport App/Pods-DVT Airport App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DVT Airport App/Pods-DVT Airport App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DVT Airport App/Pods-DVT Airport App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B096BAC129CDDBB66F15B0FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DVT Airport App/Pods-DVT Airport App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DVT Airport App/Pods-DVT Airport App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DVT Airport App/Pods-DVT Airport App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42271CB85122798964F871B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DVT Airport App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E153AFE2327A8B40044E6DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E153B082327A8B40044E6DD /* ViewController.swift in Sources */,
+				1E153B352327B5840044E6DD /* DVT_FlightListingTableViewCell.swift in Sources */,
+				1E153B332327B4A00044E6DD /* DVT_FlightListingViewController+TableView.swift in Sources */,
+				1E153B382327CDBE0044E6DD /* DVT_MapViewController.swift in Sources */,
+				1E153B232327AD150044E6DD /* MHPHttpClientManager.swift in Sources */,
+				1E153B292327AEA40044E6DD /* Emum.swift in Sources */,
+				1E153B1D2327ACAC0044E6DD /* IBInspectables.swift in Sources */,
+				1E153B2B2327AF300044E6DD /* FlightListingViewModel.swift in Sources */,
+				1E153B082327A8B40044E6DD /* DVT_FlightListingViewController.swift in Sources */,
+				1E153B2D2327B0F20044E6DD /* MapDataModel.swift in Sources */,
+				1E153B272327AE200044E6DD /* SharedAlertController.swift in Sources */,
+				1E153B242327AD150044E6DD /* MHPAppConstats.swift in Sources */,
+				1E153B3D2327CE440044E6DD /* MapViewModel.swift in Sources */,
 				1E153B062327A8B40044E6DD /* AppDelegate.swift in Sources */,
+				1E153B402327CE610044E6DD /* DVT_MapViewController+SearchBar.swift in Sources */,
+				1E82F127232BB3B80065C5F4 /* FlightListingDataModel.swift in Sources */,
+				1E153B312327B3E50044E6DD /* CommonViewController.swift in Sources */,
+				1E153B412327CE610044E6DD /* DVT_MapViewController+GoogleMap.swift in Sources */,
+				1E153B2F2327B2FB0044E6DD /* ViewController.Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +518,7 @@
 		};
 		1E153B152327A8B50044E6DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EDAF341D912DF883400176 /* Pods-DVT Airport App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,12 +530,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DVT.DVT-Airport-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1E153B162327A8B50044E6DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6BDFABEB983F1D5CFE4C39 /* Pods-DVT Airport App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +548,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "DVT.DVT-Airport-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
